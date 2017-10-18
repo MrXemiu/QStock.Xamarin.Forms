@@ -1,0 +1,5 @@
+packages/
+QStock.Xamarin/QStock.Xamarin.Android/obj/
+.vs/
+QStock.Xamarin/QStock.Xamarin.iOS/obj/
+QStock.Xamarin/QStock.Xamarin/obj/
