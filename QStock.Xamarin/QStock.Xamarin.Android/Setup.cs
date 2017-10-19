@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Android.Content;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Forms.Droid.Platform;
+using MvvmCross.Forms.Platform;
 using MvvmCross.Platform;
 using QStock.Xamarin.Core;
 using QStock.Xamarin.Droid.Services;
@@ -26,7 +17,13 @@ namespace QStock.Xamarin.Droid
 
         protected override IMvxApplication CreateApp()
         {
-            return new App();
+            return new CoreApp();
+        }
+
+        /// <inheritdoc />
+        protected override MvxFormsApplication CreateFormsApplication()
+        {
+            return new Core.App();
         }
 
         /// <inheritdoc />

@@ -7,7 +7,7 @@ using QStock.Xamarin.Core.ViewModels;
 
 namespace QStock.Xamarin.Core
 {
-    public class App : MvxApplication
+    public class CoreApp : MvxApplication
     {
         public override void Initialize()
         {
@@ -18,6 +18,5 @@ namespace QStock.Xamarin.Core
 
             RegisterNavigationServiceAppStart<MainViewModel>();
         }
-        
     }
 }
