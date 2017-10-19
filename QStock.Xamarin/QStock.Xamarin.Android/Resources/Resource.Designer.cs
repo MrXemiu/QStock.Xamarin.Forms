@@ -1878,6 +1878,7 @@ namespace QStock.Xamarin.Droid
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ViewStubCompat_android_id = global::QStock.Xamarin.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ViewStubCompat_android_inflatedId = global::QStock.Xamarin.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::MvvmCross.Droid.Support.V7.AppCompat.Resource.Styleable.ViewStubCompat_android_layout = global::QStock.Xamarin.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Splat.Resource.String.library_name = global::QStock.Xamarin.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::QStock.Xamarin.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -5605,6 +5606,9 @@ namespace QStock.Xamarin.Droid
 			
 			// aapt resource value: 0x7f0a0038
 			public const int character_counter_pattern = 2131361848;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int library_name = 2131361854;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int mr_button_content_description = 2131361792;

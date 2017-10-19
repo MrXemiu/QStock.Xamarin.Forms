@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QStock.Xamarin.Android", "QStock.Xamarin\QStock.Xamarin.Android\QStock.Xamarin.Android.csproj", "{3A5D0710-15A0-44C6-A009-AB3DD461C003}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QStock.Xamarin.Core", "QStock.Xamarin.Core\QStock.Xamarin.Core.csproj", "{FDE84A30-C3F0-45BA-82BC-3FE60697CD5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QStock.Xamarin.Core", "QStock.Xamarin\QStock.Xamarin.Core\QStock.Xamarin.Core.csproj", "{FDE84A30-C3F0-45BA-82BC-3FE60697CD5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
